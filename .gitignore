@@ -1,0 +1,4 @@
+*.tf
+**/.terraform
+terraform.*
+.DS_Store
