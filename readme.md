@@ -1,5 +1,6 @@
 
-##Client:##
+## Client: ##
+
 go run client/main.go
 
 - subscribe
@@ -7,7 +8,7 @@ go run client/main.go
 - post message
 {"option":"message","text":"this is text","channel":"foo"}
 
-##API Gateway Websockets:##
+## API Gateway Websockets: ##
 - RouteSelectionExpression: $request.body.option
 - Routes:
   - $connect,$disconnect,$default point to connectionmanager lambda
